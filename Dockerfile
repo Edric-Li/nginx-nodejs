@@ -9,3 +9,5 @@ RUN curl -sL https://deb.nodesource.com/setup | bash - \
 
 RUN add-apt-repository ppa:nginx/stable && apt-get update \
  && apt-get -y install nginx
+
+RUN npm install -g yarn
